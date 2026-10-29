@@ -25,8 +25,13 @@ Las conexiones se configuran mediante variables de entorno para mantener las cre
 git clone https://github.com/Joa-Ceq/TP-BB.DD.git
 cd TP-BB.DD
 ```
+Antes de ejecutar el programa, asegurarse de estar ubicado en la rama correcta del repositorio.
 
-Reemplazá los valores de ejemplo por la URL y el nombre reales del repositorio.
+git fetch origin
+git switch joaquin
+git pull origin joaquin
+
+Reemplazar los valores de ejemplo por la URL y el nombre reales del repositorio.
 
 ### 2. Crear un entorno virtual
 
@@ -71,13 +76,13 @@ El archivo `.env` contiene información privada y no debe subirse a GitHub.
 
 ### 5. Ejecutar el proyecto
 
-Abrir el notebook `TP_Integrador_BD (2).ipynb` en Visual Studio Code, seleccionar el intérprete de Python del entorno virtual `.venv` y ejecutar las celdas en el orden indicado.
+Abrir el notebook `TP_Integrador_BD (1).ipynb` en Visual Studio Code, seleccionar el intérprete de Python del entorno virtual `.venv` y ejecutar las celdas en el orden indicado.
 
 ## Estructura del proyecto
 
 ```text
 .
-├── TP_Integrador_BD (2).ipynb
+├── TP_Integrador_BD (1).ipynb
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
